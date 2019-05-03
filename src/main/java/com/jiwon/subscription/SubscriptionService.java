@@ -23,8 +23,8 @@ public class SubscriptionService {
 		Subscription subscription = new Subscription();
 		subscription.setUserId("5");
 		subscription.setName("김지원");
-		subscription.setChannelId("2");
-		subscription.setTitle("씨네타운 나인틴");
+		subscription.setChannelId("1");
+		subscription.setTitle("라이너의 컬쳐쇼크");
 
 		try {
 			subscriptionDao.addSubscription(subscription);

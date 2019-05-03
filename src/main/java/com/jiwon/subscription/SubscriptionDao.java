@@ -15,7 +15,7 @@ public class SubscriptionDao {
 
 	static final String DELETE_SUBSCRIPTION = "DELETE FROM subscription WHERE (userId, channelId)=(?,?)";
 
-	static final String LIST_SUBSCRIPTIONS = "SELECT channelId,title FROM subscription WHERE userId=?";
+	static final String LIST_SUBSCRIPTIONS = "SELECT userId,name,channelId,title FROM subscription WHERE userId=?";
 
 	@Autowired
 	JdbcTemplate jdbcTemplate;
